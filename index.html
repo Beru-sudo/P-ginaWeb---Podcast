@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Spotify Podcast Player</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="player">
+
+    <!-- Imagen -->
+
+    <img
+    src="https://cdn.sanity.io/images/bs9rmafh/main/d94579d32def8b13ade35c0fdcc95250d4427373-4032x6048.jpg?w=4032&h=6048&auto=format"
+    class="cover">
+
+    <!-- Título -->
+
+    <h1>Dilema Moral</h1>
+
+    <!-- Autor -->
+
+    <p class="artist">5 SOLCITOS</p>
+
+    <!-- Tiempo -->
+
+    <div class="time">
+
+        <span id="current-time">0:00</span>
+
+        <span id="duration">0:00</span>
+
+    </div>
+
+    <!-- Barra -->
+
+    <div class="progress-container"
+    id="progress-container">
+
+        <div class="progress"
+        id="progress"></div>
+
+    </div>
+
+    <!-- Botones -->
+
+    <div class="controls">
+
+        <button class="btn">⏮</button>
+
+        <button class="btn play"
+        id="play">
+
+            ▶
+
+        </button>
+
+        <button class="btn">⏭</button>
+
+    </div>
+
+    <!-- Audio -->
+
+    <audio id="audio">
+
+        <source
+        src="Confident.mp3"
+        type="audio/mpeg">
+
+    </audio>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
